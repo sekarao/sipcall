@@ -14,9 +14,7 @@ start(_StartType, _StartArgs) ->
 
     Dispatch = cowboy_router:compile([
         {'_', [
-            {"/api/call/:userid", userid_handler, []},
-            {"/api/call", not_found_handler, []},
-            {"/", not_found_handler, []}
+            {"/api/call/:userid", userid_handler, []}
         ]}
     ]),
 
