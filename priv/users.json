@@ -1,0 +1,13 @@
+{
+    "users": [
+        {"userID" : "0",
+         "userName" : "ivanov",
+         "userPhone" : "3003",
+         "userAuth": {
+            "authType" : "yes",
+            "userLogin" : "3003",
+            "userPass": "test"
+         }
+        }
+    ]
+}
